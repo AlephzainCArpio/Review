@@ -9,11 +9,12 @@ if (isStudent) {
 } else {
   console.log("Access denied");
 }
-let isHungry = true;
+let isHungry = false;
+
 if (isHungry) {
   console.log("Let's eat!");
-}
-else {  console.log("Im full");
+} else {
+  console.log("I'm full");
 }
 
 
