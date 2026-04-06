@@ -80,3 +80,38 @@ checkAge(16);
 checkAge(18);
 checkAge(12);
 
+function checkeven(number) {
+  if (number % 2 === 0) {
+    console.log(number + " is even.");
+  } else {
+    console.log(number + " is odd.");
+  }
+}
+checkeven(4);
+checkeven(7);
+
+function findBigger(a, b) {
+  if (a > b) {
+    console.log(a + " is bigger than " + b);
+  } else if (b > a) {
+    console.log(b + " is bigger than " + a);
+  } else {
+    console.log("Both numbers are equal.");
+  }
+}
+findBigger(5, 10);
+findBigger(15, 8);
+findBigger(12, 12);
+
+function greetByTime(hour) {
+  if (hour < 12) {
+    console.log("Good morning!");
+  } else if (hour < 18) {
+    console.log("Good afternoon!");
+  } else {
+    console.log("Good evening!");
+  } 
+}
+greetByTime(9);
+greetByTime(14);
+greetByTime(20);
