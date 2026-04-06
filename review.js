@@ -115,3 +115,21 @@ function greetByTime(hour) {
 greetByTime(9);
 greetByTime(14);
 greetByTime(20);
+
+function calculator(a,b,operation) {
+  if (operation === "add") {
+    console.log(a + b);
+  } else if (operation === "subtract") {
+    console.log(a - b);
+  } else if (operation === "multiply") {
+    console.log(a * b);
+  } else if (operation === "divide") {
+    console.log(a / b);
+  }
+  else {    console.log("Invalid operation");
+  }
+}
+calculator(10, 5, "add");
+calculator(10, 5, "subtract");
+calculator(10, 5, "multiply");
+calculator(10, 5, "divide");
