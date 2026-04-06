@@ -69,11 +69,14 @@ multiply(2, 100);
 function checkAge(age) {
   if (age >= 18) {
     console.log("You are an adult.");
-  } else {
+  } else if (age >= 13) {
     console.log("You are a minor.");
+  } else {
+    console.log("You are a child.");
   }
 }
 checkAge(24);
 checkAge(16);
 checkAge(18);
+checkAge(12);
 
