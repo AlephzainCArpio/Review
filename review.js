@@ -133,3 +133,21 @@ calculator(10, 5, "add");
 calculator(10, 5, "subtract");
 calculator(10, 5, "multiply");
 calculator(10, 5, "divide");
+
+function checkGrade(score) {
+  if (score >=100) {
+    console.log(score + " = Invalid score");
+  } else if (score >= 90) {
+    console.log(score + " = Grade A");
+  } else if (score >= 80) {
+    console.log(score + " = Grade B");
+  } else if (score >= 70) {
+    console.log(score + " = Grade C");
+  } else if (score >= 60) {
+    console.log(score + " = Grade D");
+  } else {
+    console.log(score + " = Grade F");
+  }
+}
+let studentScore = [95,85, 72, 60, 55,100, 110];
+studentScore.forEach(checkGrade); 
