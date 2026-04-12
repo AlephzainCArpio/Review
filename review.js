@@ -150,4 +150,27 @@ function checkGrade(score) {
   }
 }
 let studentScore = [95,85, 72, 60, 55,100, 110];
-studentScore.forEach(checkGrade); 
+studentScore.forEach(checkGrade);
+
+let fruits = ["apple", "banana", "mango"];
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+
+fruits[1] = "orange";
+console.log(fruits);
+
+let colors = ["red", "green", "blue"];
+console.log(colors);
+console.log(colors[0]);
+console.log(colors[colors.length - 1]);
+colors[2] = "yellow";
+console.log(colors);
+console.log(colors[2])
+
+let nums = [5, 10, 15, 20];
+console.log(nums);
+console.log(nums.length);
+console.log(nums[nums.length - 1]);
+i< nums.length;
