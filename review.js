@@ -207,4 +207,6 @@ function printFruits(fruits) {
   }
 }
 let myFruits = ["apple", "banana", "mango"];
-printFruits(myFruits);
+myFruits.forEach(fruits => {
+  console.log("Fruit: " + fruits);
+});
