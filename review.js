@@ -173,4 +173,15 @@ let nums = [5, 10, 15, 20];
 console.log(nums);
 console.log(nums.length);
 console.log(nums[nums.length - 1]);
-i< nums.length;
+
+
+for (let i = 0; i < 100; i++) {
+  console.log(i);
+}
+
+let fruits = ["apple", "banana", "mango"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log("Fruit: " + fruits[i]);
+}
+
