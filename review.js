@@ -210,3 +210,13 @@ let myFruits = ["apple", "banana", "mango"];
 myFruits.forEach(fruits => {
   console.log("Fruit: " + fruits);
 });
+
+function checkPass(score) {
+  if (score >= 75) {
+    console.log("Passed");
+  } else {
+    console.log("Failed");
+  }
+}
+let Scores = [90, 60, 80,50];
+Scores.forEach(checkPass);
