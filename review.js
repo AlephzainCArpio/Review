@@ -207,8 +207,8 @@ function printFruits(fruits) {
   }
 }
 let myFruits = ["apple", "banana", "mango"];
-myFruits.forEach(fruits => {
-  console.log("Fruit: " + fruits);
+myFruits.forEach(fruit => {
+  console.log("Fruit: " + fruit);
 });
 
 function checkPass(score) {
@@ -218,5 +218,6 @@ function checkPass(score) {
     console.log("Failed");
   }
 }
-let Scores = [90, 60, 80,50];
-Scores.forEach(checkPass);
+let scores = [90, 60, 80,50];
+scores.forEach(checkPass);
+
