@@ -185,3 +185,10 @@ for (let i = 0; i < fruits.length; i++) {
   console.log("Fruit: " + fruits[i]);
 }
 
+let numbers = [10,20,30,40,50];
+for (let i = 0; i < numbers.length; i++) {
+   console.log("Number: " + numbers[i]);
+  if (i === numbers.length - 1) {
+    console.log("Last number: " + numbers[i]);
+  }
+}
