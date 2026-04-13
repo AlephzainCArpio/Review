@@ -194,7 +194,10 @@ for (let i = 0; i < numbers.length; i++) {
 }
 let num = [10, 15, 20, 25, 30];
 for (let i = 0; i < num.length; i++) {
-  if (num[i] % 2 === 0) {
-    console.log("Even number: " + num[i]);
-  }
+ if (num[i] % 2 === 0) {
+  console.log("Even: " + num[i]);
+} else {
+  console.log("Odd: " + num[i]);
 }
+}
+
