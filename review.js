@@ -221,3 +221,20 @@ function checkPass(score) {
 let scores = [90, 60, 80,50];
 scores.forEach(checkPass);
 
+let studentScores = [95, 82, 67, 45, 100];
+
+function checkGrade(score) {
+  if (score > 100 || score < 0) {
+    console.log(score + " = Invalid");
+  } else if (score >= 90) {
+    console.log(score + " = Excellent");
+  } else if (score >= 75) {
+    console.log(score + " = Good");
+  } else if (score >= 50) {
+    console.log(score + " = Pass");
+  } else {
+    console.log(score + " = Failed");
+  }
+}
+
+studentScores.forEach(checkGrade);
