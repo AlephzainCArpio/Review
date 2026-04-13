@@ -201,3 +201,10 @@ for (let i = 0; i < num.length; i++) {
 }
 }
 
+function printFruits(fruits) {
+  for (let i = 0; i < fruits.length; i++) {
+    console.log("Fruit: " + fruits[i]);
+  }
+}
+let myFruits = ["apple", "banana", "mango"];
+printFruits(myFruits);
