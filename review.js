@@ -260,3 +260,27 @@ function checkStudentGrade(student) {
 }
 
 students.forEach(checkStudentGrade);
+
+let studentsScores = [
+  { name: "John", score: 90 },
+  { name: "Jane", score: 60 },
+  { name: "Mark", score: 75 },
+  { name: "Ana", score: 45 }
+];
+function getGrade(score) {
+  if (score > 100 || score < 0) {
+    return "Invalid";
+  } else if (score >= 90) {
+    return "Excellent";
+  } else if (score >= 75) {
+    return "Good";
+  } else if (score >= 50) {
+    return "Pass";
+  } else {
+    return "Failed";
+  }
+}
+studentsScores.forEach(student => {
+  let grade = getGrade(student.score);
+  console.log(student.name + " (" + student.score + ") = " + grade);
+});
