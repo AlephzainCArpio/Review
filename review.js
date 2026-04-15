@@ -249,13 +249,13 @@ let students = [
 ];
 function checkStudentGrade(student) {
   if (student.score >= 90) {
-    console.log(student.name + " = Excellent");
+    console.log(student.name + " (" + student.score + ") = Excellent");
   } else if (student.score >= 75) {
-    console.log(student.name + " = Good");
+    console.log(student.name + " (" + student.score + ") = Good");
   } else if (student.score >= 50) {
-    console.log(student.name + " = Pass");
+    console.log(student.name + " (" + student.score + ") = Pass");
   } else {
-    console.log(student.name + " = Failed");
+    console.log(student.name + " (" + student.score + ") = Failed");
   }
 }
 
