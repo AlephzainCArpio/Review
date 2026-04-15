@@ -179,10 +179,10 @@ for (let i = 0; i < 100; i++) {
   console.log(i);
 }
 
-let fruits = ["apple", "banana", "mango"];
+let fruit = ["apple", "banana", "mango"];
 
-for (let i = 0; i < fruits.length; i++) {
-  console.log("Fruit: " + fruits[i]);
+for (let i = 0; i < fruit.length; i++) {
+  console.log("Fruit: " + fruit[i]);
 }
 
 let numbers = [10,20,30,40,50];
@@ -238,3 +238,25 @@ function checkGrade(score) {
 }
 
 studentScores.forEach(checkGrade);
+
+
+
+let students = [
+  { name: "John", score: 90 },
+  { name: "Jane", score: 60 },
+  { name: "Mark", score: 75 },
+  { name: "Ana", score: 45 }
+];
+function checkStudentGrade(student) {
+  if (student.score >= 90) {
+    console.log(student.name + " = Excellent");
+  } else if (student.score >= 75) {
+    console.log(student.name + " = Good");
+  } else if (student.score >= 50) {
+    console.log(student.name + " = Pass");
+  } else {
+    console.log(student.name + " = Failed");
+  }
+}
+
+students.forEach(checkStudentGrade);
