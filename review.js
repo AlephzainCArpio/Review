@@ -286,12 +286,15 @@ studentsScores.forEach(student => {
 });
 
 
-let results = [
+let student = [
   { name: "John", score: 90 },
   { name: "Jane", score: 60 },
   { name: "Mark", score: 75 },
   { name: "Ana", score: 45 }
 ];
+
+let results = [];
+
 function checkGrade(score) {
   if (score > 100 || score < 0) {
     return "Invalid";
@@ -305,7 +308,7 @@ function checkGrade(score) {
     return "Failed";
   }
 }
-results.forEach(result => {
+student.forEach(result => {
   let grade = checkGrade(result.score);
    results.push({
     name: result.name,
