@@ -284,3 +284,33 @@ studentsScores.forEach(student => {
   let grade = getGrade(student.score);
   console.log(student.name + " (" + student.score + ") = " + grade);
 });
+
+
+let results = [
+  { name: "John", score: 90 },
+  { name: "Jane", score: 60 },
+  { name: "Mark", score: 75 },
+  { name: "Ana", score: 45 }
+];
+function checkGrade(score) {
+  if (score > 100 || score < 0) {
+    return "Invalid";
+  } else if (score >= 90) {
+    return "Excellent";
+  } else if (score >= 75) {
+    return "Good";
+  } else if (score >= 50) {
+    return "Pass";
+  } else {
+    return "Failed";
+  }
+}
+results.forEach(result => {
+  let grade = checkGrade(result.score);
+   results.push({
+    name: result.name,
+    score: result.score,
+    grade: grade
+  });
+});
+console.log(results);
