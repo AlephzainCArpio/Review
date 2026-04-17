@@ -317,3 +317,29 @@ student.forEach(result => {
   });
 });
 console.log(results);
+
+let studentscores =[
+  {
+    name: "John",
+    score: 90,
+    getGrades: function() {
+      if (this.score >= 90) return "Excellent";
+      else if (this.score >= 75) return "Good";
+      else if (this.score >= 50) return "Pass";
+      else return "Failed";
+    }
+  },
+  {
+    name: "Jane",
+    score: 60,
+    getGrades: function() {
+      if (this.score >= 90) return "Excellent";
+      else if (this.score >= 75) return "Good";
+      else if (this.score >= 50) return "Pass";
+      else return "Failed";
+    }
+  }
+];
+studentscores.forEach(student => {
+  console.log(student.name + " = " + student.getGrades());
+});
