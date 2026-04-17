@@ -34,7 +34,8 @@ console.log(hobbies);
 function sayHello(name) {
   console.log("Hello, " + name + "!");
 }
-let message = sayHello("Alephzain");
+sayHello("Alephzain");
+
 
 function checkHunger(isHungry) {
   if (isHungry) {
