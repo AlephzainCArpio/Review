@@ -352,3 +352,15 @@ let car = {
   }
 }
 console.log(car.getInfo());
+
+let studentInfo = {
+  name:"Alephzain",
+  score: 85,
+  getGrade: function() {
+    if (this.score >= 90) return "Excellent";
+    else if (this.score >= 75) return "Good";    
+    else if (this.score >= 50) return "Pass";
+    else return "Failed";
+  }
+}
+console.log(studentInfo.name + " = " + studentInfo.getGrade());
