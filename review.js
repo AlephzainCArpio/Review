@@ -207,10 +207,9 @@ function printFruits(fruits) {
     console.log("Fruit: " + fruits[i]);
   }
 }
+
 let myFruits = ["apple", "banana", "mango"];
-myFruits.forEach(fruit => {
-  console.log("Fruit: " + fruit);
-});
+printFruits(myFruits);
 
 function checkPass(score) {
   if (score >= 75) {
