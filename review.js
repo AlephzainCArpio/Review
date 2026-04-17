@@ -134,7 +134,7 @@ calculator(10, 5, "subtract");
 calculator(10, 5, "multiply");
 calculator(10, 5, "divide");
 
-function checkGrade(score) {
+function checkLetterGrade(score) {
   if (score >=100) {
     console.log(score + " = Invalid score");
   } else if (score >= 90) {
@@ -150,7 +150,7 @@ function checkGrade(score) {
   }
 }
 let studentScore = [95,85, 72, 60, 55,100, 110];
-studentScore.forEach(checkGrade);
+studentScore.forEach(checkLetterGrade);
 
 let fruits = ["apple", "banana", "mango"];
 console.log(fruits);
