@@ -343,3 +343,12 @@ let studentscores =[
 studentscores.forEach(student => {
   console.log(student.name + " = " + student.getGrades());
 });
+
+let car = {
+  brand:"Toyota",
+  speed:"120",
+  getInfo: function() {
+    return this.brand + " - " + this.speed + " km/h";
+  }
+}
+console.log(car.getInfo());
