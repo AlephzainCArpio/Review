@@ -411,3 +411,7 @@ console.log(doubled); // [2, 4, 6, 8]
 const scores = [70, 80, 60, 90];
 const updatedScores = scores.map((score) => score + 10);
 console.log(updatedScores); // [80, 90, 70, 100]
+
+const numbers = [10, 25, 30, 45, 50];
+const bigNumbers = numbers.filter((num) => num > 30);
+console.log(bigNumbers); // [45, 50]
