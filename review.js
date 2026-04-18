@@ -424,3 +424,11 @@ const students = [
 ];
 const passedStudents = students.filter((student) => student.score >= 75);
 console.log(passedStudents);
+
+const numbers = [10, 20, 30, 40];
+const total = numbers.reduce((sum, num) => sum + num, 0);
+console.log(total); // 100
+
+const numbers = [1, 2, 3, 4, 5, 6];
+const total = numbers.reduce((result, num) => result * num, 1);
+console.log(total); // 720
