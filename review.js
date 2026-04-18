@@ -407,3 +407,7 @@ printStudent(student);
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.map((num) => num * 2);
 console.log(doubled); // [2, 4, 6, 8]
+
+const scores = [70, 80, 60, 90];
+const updatedScores = scores.map((score) => score + 10);
+console.log(updatedScores); // [80, 90, 70, 100]
