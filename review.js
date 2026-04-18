@@ -432,3 +432,8 @@ console.log(total); // 100
 const numbers = [1, 2, 3, 4, 5, 6];
 const total = numbers.reduce((result, num) => result * num, 1);
 console.log(total); // 720
+
+
+const score = [90, 60, 75, 45];
+const totalScore = score.reduce((sum, number) => sum + number, 0);
+console.log(totalScore);
