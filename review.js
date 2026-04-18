@@ -415,3 +415,12 @@ console.log(updatedScores); // [80, 90, 70, 100]
 const numbers = [10, 25, 30, 45, 50];
 const bigNumbers = numbers.filter((num) => num > 30);
 console.log(bigNumbers); // [45, 50]
+
+const students = [
+  { name: "John", score: 90 },
+  { name: "Jane", score: 60 },
+  { name: "Mark", score: 75 },
+  { name: "Ana", score: 45 }
+];
+const passedStudents = students.filter((student) => student.score >= 75);
+console.log(passedStudents);
