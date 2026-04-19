@@ -442,3 +442,4 @@ const score = [90, 60, 75, 45];
 const total = score.reduce((sum, number) => sum + number, 0);
 const average = total / score.length;
 console.log(average);
+
