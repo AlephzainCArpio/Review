@@ -13,3 +13,11 @@ const btn3 = document.getElementById("btn3");
 btn3.addEventListener("click", () => {
   title.textContent = input.value;
 });
+
+const count = document.getElementById("count");
+const countBtn = document.getElementById("countBtn");
+let counter = 0;
+countBtn.addEventListener("click", () => {
+  counter++;
+  count.textContent = counter;
+});
