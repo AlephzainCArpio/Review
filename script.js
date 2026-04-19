@@ -21,3 +21,8 @@ countBtn.addEventListener("click", () => {
   counter++;
   count.textContent = counter;
 });
+const resetBtn = document.getElementById("resetBtn");
+resetBtn.addEventListener("click", () => {
+  counter = 0;
+  count.textContent = counter;
+});
