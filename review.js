@@ -449,3 +449,11 @@ try {
   console.log("Something went wrong:", error.message); 
 }
 console.log("This still runs"); 
+
+let message = "I am global";
+
+const showMessage = () => {
+  console.log(message);
+};
+
+showMessage();
