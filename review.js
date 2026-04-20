@@ -443,3 +443,9 @@ const total = score.reduce((sum, number) => sum + number, 0);
 const average = total / score.length;
 console.log(average);
 
+try {
+  const result = someUndefinedVariable;
+} catch (error) {
+  console.log("Something went wrong:", error.message); 
+}
+console.log("This still runs"); 
