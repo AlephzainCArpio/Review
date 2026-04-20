@@ -458,7 +458,6 @@ const showMessage = () => {
 
 showMessage();
 
-try {
 const getUser = (users, index) => {
   return users[index].name;
 };
@@ -466,7 +465,7 @@ const users = [
   { name: "John" },
   { name: "Jane" }
 ];
-
+try {
 console.log(getUser(users, 5));
 } catch (error) {
   console.log("Error: " + error.message);
