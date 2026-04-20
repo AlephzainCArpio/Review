@@ -470,3 +470,29 @@ console.log(getUser(users, 5));
 } catch (error) {
   console.log("Error: " + error.message);
 }
+
+const divide = (a, b) => {
+  if (typeof a !== "number" || typeof b !== "number") {
+    throw new Error("a and b must be numbers");
+  }
+  else if (b === 0) {
+    throw new Error("Cannot divide by zero");
+  }
+  const results = a / b;
+  console.log(results);
+};
+try {
+divide(10, 2);
+} catch (error) {
+  console.log("Error: " + error.message);
+}
+try {
+divide(10, 0);
+} catch (error) {
+  console.log("Error: " + error.message);
+}
+try {
+divide(10,"a");
+}catch (error) {
+  console.log("Error: " + error.message);
+};
