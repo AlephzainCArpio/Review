@@ -457,3 +457,15 @@ const showMessage = () => {
 };
 
 showMessage();
+
+
+const getUser = (users, index) => {
+  return users[index].name;
+};
+
+const users = [
+  { name: "John" },
+  { name: "Jane" }
+];
+
+console.log(getUser(users, 5));
