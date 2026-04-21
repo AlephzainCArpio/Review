@@ -501,3 +501,13 @@ const fruits = ["apple", "banana"];
 const veggies = ["carrot", "potato"];
 const allItems = [...fruits, ...veggies,"tomato"];
 console.log(allItems);  
+
+
+
+const getAverage = (...scores) => {
+  const total = scores.reduce((sum, score) => sum + score, 0);
+  const average = total / scores.length;
+  console.log(average);
+}
+getAverage(90, 80, 70);          
+getAverage(100, 90, 80, 70, 60); 
