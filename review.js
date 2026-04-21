@@ -511,3 +511,26 @@ const getAverage = (...scores) => {
 }
 getAverage(90, 80, 70);          
 getAverage(100, 90, 80, 70, 60); 
+
+const checkAge = (age) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (age >= 18) {
+        resolve("Access Granted");
+      } else {
+        reject("Access Denied");
+      }
+    }, 1000);
+  });
+};
+
+const main = async () => {
+  try {
+    const result = await checkAge(20);
+    console.log(result); 
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+main();
