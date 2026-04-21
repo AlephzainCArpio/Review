@@ -496,3 +496,8 @@ divide(10,"a");
 }catch (error) {
   console.log("Error: " + error.message);
 };
+
+const fruits = ["apple", "banana"];
+const veggies = ["carrot", "potato"];
+const allItems = [...fruits, ...veggies,"tomato"];
+console.log(allItems);  
