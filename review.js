@@ -583,3 +583,15 @@ const sayHi = makeGreeter("Hi");
 
 sayHello("Alephzain"); 
 sayHi("Alephzain");   
+
+function outer() {
+  let message = "I am from outer";
+
+  function inner() {
+    console.log(message);
+  }
+
+  inner();
+}
+
+outer();
