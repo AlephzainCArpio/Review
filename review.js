@@ -607,3 +607,20 @@ const triple = makeMultiplier(3);
 
 console.log(double(5));
 console.log(triple(5));
+
+function makeCounter() {
+  let count = 0;
+
+  return {
+    increment: () => count++,
+    decrement: () => count--,
+    getCount: () => count
+  };
+}
+
+const counter = makeCounter();
+counter.increment();
+counter.increment();
+counter.increment();
+counter.decrement();
+console.log(counter.getCount());
