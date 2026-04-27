@@ -544,5 +544,18 @@ const result = numbers
 console.log(result);
 
 console.log(age);
-var age = 24;
+let age = 24;
 console.log(age);
+
+
+greet();
+
+function greet() {
+  console.log("Hello!");
+}
+
+sayBye();
+
+const sayBye = () => {
+  console.log("Bye!");
+};
