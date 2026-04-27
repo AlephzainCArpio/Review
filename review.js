@@ -559,3 +559,15 @@ sayBye();
 const sayBye = () => {
   console.log("Bye!");
 };
+
+
+var x = 1;
+
+function test() {
+  console.log(x);
+  var x = 2;
+  console.log(x);
+}
+
+test();
+console.log(x);
