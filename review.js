@@ -542,3 +542,7 @@ const result = numbers
   .reduce((sum, num) => sum + num, 0);
 
 console.log(result);
+
+console.log(age);
+var age = 24;
+console.log(age);
