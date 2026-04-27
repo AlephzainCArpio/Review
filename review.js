@@ -571,3 +571,15 @@ function test() {
 
 test();
 console.log(x);
+
+function makeGreeter(greeting) {
+  return (name) => {
+    console.log(`${greeting} ${name}!`);
+  };
+}
+
+const sayHello = makeGreeter("Hello");
+const sayHi = makeGreeter("Hi");
+
+sayHello("Alephzain"); 
+sayHi("Alephzain");   
