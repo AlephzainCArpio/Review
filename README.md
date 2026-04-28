@@ -11,6 +11,7 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ---
 
 ## Folder Structure
+```
 📁 Review
 ┣ 📁 01-Fundamentals
 ┃ ┣ 📄 variables.js
@@ -38,6 +39,7 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄 index.html
 ┃ ┗ 📄 dom-manipulation.js
 ┗ 📄 README.md
+```
 ---
 
 ## Topics Covered
