@@ -1,26 +1,43 @@
 # JavaScript Learning Journey 🚀
 
-A personal repository documenting my progress learning JavaScript from the ground up — covering core fundamentals through advanced concepts.
+A personal repository documenting my progress learning JavaScript from the ground up — covering core fundamentals through advanced concepts, with the goal of becoming a full stack web developer.
 
 ---
 
 ## About
 
-This repository contains all the JavaScript practice files I wrote while learning web development. Each file focuses on a specific concept, starting from the basics and progressively building toward more advanced topics.
+Each file focuses on a specific concept, organized by topic folder. Built through daily practice with quizzes and tasks per topic.
 
 ---
 
-## File Structure
-
-```
+## Folder Structure
 📁 Review
- ┣ 📄 review.js       — core JavaScript fundamentals practice
- ┣ 📄 script.js       — DOM manipulation exercises
- ┣ 📄 index.html      — HTML file for DOM practice
- ┣ 📄 git-test.js     — Git branch workflow practice
- ┗ 📄 README.md       — this file
-```
-
+┣ 📁 01-Fundamentals
+┃ ┣ 📄 variables.js
+┃ ┣ 📄 loops.js
+┃ ┣ 📄 hoisting.js
+┃ ┗ 📄 closures.js
+┣ 📁 02-Functions
+┃ ┣ 📄 declarations-vs-expressions.js
+┃ ┣ 📄 arrow-functions.js
+┃ ┗ 📄 higher-order-functions.js
+┣ 📁 03-Arrays
+┃ ┗ 📄 array-methods.js
+┣ 📁 04-Objects
+┃ ┣ 📄 object-basics.js
+┃ ┗ 📄 object-destructuring.js
+┣ 📁 05-ES6-Features
+┃ ┣ 📄 spread-rest.js
+┃ ┗ 📄 template-literals.js
+┣ 📁 06-Error-Handling
+┃ ┗ 📄 try-catch.js
+┣ 📁 07-Async-JavaScript
+┃ ┣ 📄 promises.js
+┃ ┗ 📄 async-await.js
+┣ 📁 08-DOM-Manipulation
+┃ ┣ 📄 index.html
+┃ ┗ 📄 dom-manipulation.js
+┗ 📄 README.md
 ---
 
 ## Topics Covered
@@ -28,86 +45,98 @@ This repository contains all the JavaScript practice files I wrote while learnin
 ### ✅ Fundamentals
 - Variables (`let`, `const`, `var`)
 - Data types (strings, numbers, booleans)
-- Conditional statements (`if`, `else if`, `else`)
-- Comparison operators (`===`, `>`, `<`, `>=`)
-- Modulo operator (`%`)
+- Conditionals (`if`, `else if`, `else`)
+- Loops (`for`, `forEach`)
+- Hoisting (var vs let/const, declarations vs expressions)
+- Closures (lexical scope, factory functions, stateful functions)
 
 ### ✅ Functions
-- Function declarations
-- Arrow functions (`=>`)
-- Parameters and arguments
-- Return values
+- Declarations vs expressions
+- Arrow functions
+- Parameters, arguments, return values
+- Higher-order functions
 
 ### ✅ Arrays
-- Array indexing and `.length`
-- Looping with `for` and `forEach`
-- Array methods (`map`, `filter`, `reduce`)
-- Spread and rest operators (`...`)
+- Indexing, `.length`, mutation
+- `map`, `filter`, `reduce`
+- Method chaining
 
 ### ✅ Objects
-- Key-value pairs
-- Dot notation and bracket notation
+- Key-value pairs, dot notation
+- Methods with `this`
 - Arrays of objects
 - Destructuring
 
 ### ✅ ES6+ Features
 - Template literals
 - Destructuring
-- Spread operator
-- Rest operator
+- Spread and rest operators (`...`)
 - Arrow functions
 
 ### ✅ Error Handling
 - `try`, `catch`, `throw`
 - Input validation
-- Handling undefined values
+- Custom error messages
 
 ### ✅ Asynchronous JavaScript
-- Promises (`resolve`, `reject`)
-- `.then()` and `.catch()`
-- `async` and `await`
+- Promises (`resolve`, `reject`, `.then()`, `.catch()`)
+- `async` / `await`
 
 ### ✅ DOM Manipulation
-- `document.getElementById()`
-- `textContent` and `input.value`
+- Selecting elements (`getElementById`)
+- `textContent`, `input.value`
 - `addEventListener`
-- Building interactive UI with JavaScript
-- Counter, back button, and input field interactions
+- Interactive UI (counter, input, button events)
 
 ### ✅ Version Control
 - Git branch workflow
 - Staging, committing, pushing
-- Pull requests as a contributor
+- Pull requests
+
+---
+
+## Roadmap
+
+| Topic | Status |
+|---|---|
+| Fundamentals | ✅ Done |
+| Functions | ✅ Done |
+| Arrays | ✅ Done |
+| Objects | ✅ Done |
+| ES6+ Features | ✅ Done |
+| Error Handling | ✅ Done |
+| Async JavaScript | ✅ Done |
+| DOM Manipulation | ✅ Done |
+| `this` Keyword | 🔄 Up next |
+| Classes | ⬜ Pending |
+| Callbacks | ⬜ Pending |
+| JSON | ⬜ Pending |
+| HTML + CSS | ⬜ Pending |
+| React | ⬜ Pending |
+| Node.js + Express | ⬜ Pending |
+| MySQL + MongoDB | ⬜ Pending |
 
 ---
 
 ## How to Run
 
-**For JavaScript files:**
-
-1. Clone the repository
+**JavaScript files:**
 ```bash
 git clone https://github.com/AlephzainCArpio/Review
 cd Review
+node 01-Fundamentals/variables.js
 ```
 
-2. Run any JS file using Node.js
-```bash
-node review.js
-node script.js
-node git-test.js
-```
+**DOM practice:**
 
-**For DOM practice:**
-
-Open `index.html` directly in Google Chrome
+Open `08-DOM-Manipulation/index.html` directly in Chrome.
 
 ---
 
 ## Tools Used
 
-- **VS Code** — code editor
-- **Node.js** — JavaScript runtime
+- **VS Code** — editor
+- **Node.js** — JS runtime
 - **Git & GitHub** — version control
 - **Google Chrome** — browser testing
 
@@ -121,4 +150,4 @@ Open `index.html` directly in Google Chrome
 
 ---
 
-*This repository is part of my journey toward becoming a full stack web developer.*
+*Working toward a full stack web developer role.*
