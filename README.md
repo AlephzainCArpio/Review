@@ -26,7 +26,7 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┗ 📄 array-methods.js
 ┣ 📁 04-Objects
 ┃ ┣ 📄 object-basics.js
-┃ ┗ 📄 object-destructuring.js
+┃ ┗ 📄 object-destructuring.js 
 ┣ 📁 05-ES6-Features
 ┃ ┣ 📄 spread-rest.js
 ┃ ┗ 📄 template-literals.js
@@ -38,6 +38,9 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┣ 📁 08-DOM-Manipulation
 ┃ ┣ 📄 index.html
 ┃ ┗ 📄 dom-manipulation.js
+┣ 📁 09-This-Keyword
+┃ ┣ 📄 this-basic.js
+┃ ┗ 📄 this-context.js
 ┗ 📄 README.md
 ```
 ---
