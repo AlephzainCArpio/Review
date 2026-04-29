@@ -98,7 +98,15 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 - Staging, committing, pushing
 - Pull requests
 
+### ✅ `this` Keyword
+- `this` in global scope
+- `this` in regular functions vs methods
+- `this` in arrow functions (no own `this`)
+- Arrow functions inside methods (inheriting `this`)
+- Losing context when detaching a method
+- Fixing lost context with `.bind()`
 ---
+
 
 ## Roadmap
 
@@ -112,8 +120,8 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 | Error Handling | ✅ Done |
 | Async JavaScript | ✅ Done |
 | DOM Manipulation | ✅ Done |
-| `this` Keyword | 🔄 Up next |
-| Classes | ⬜ Pending |
+| `this` Keyword | ✅ Done |
+| Classes |  🔄  Up next |
 | Callbacks | ⬜ Pending |
 | JSON | ⬜ Pending |
 | HTML + CSS | ⬜ Pending |
