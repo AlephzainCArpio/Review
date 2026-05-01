@@ -42,6 +42,10 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄 this-basic.js
 ┃ ┗ 📄 this-context.js
 ┃ ┗ 📄 task.js
+┣ 📁 10-This-Keyword
+┃ ┣ 📄classes-basics.js
+┃ ┗ 📄 inheritance.js
+┃ ┗ 📄 task.js
 ┗ 📄 README.md
 ```
 ---
@@ -106,6 +110,13 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 - Arrow functions inside methods (inheriting `this`)
 - Losing context when detaching a method
 - Fixing lost context with `.bind()`
+
+### ✅ Classes
+- Class declaration and constructor
+- Adding methods to a class
+- Inheritance with `extends`
+- `super` keyword
+- Static methods
 ---
 
 
