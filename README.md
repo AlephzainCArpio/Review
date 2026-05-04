@@ -46,6 +46,10 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄classes-basics.js
 ┃ ┗ 📄 inheritance.js
 ┃ ┗ 📄 task.js
+┣ 📁 11-Callbacks
+┃ ┣ 📄callbacks-basics.js
+┃ ┗ 📄 callbacks-async.js
+┃ ┗ 📄 task.js
 ┗ 📄 README.md
 ```
 ---
@@ -117,6 +121,14 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 - Inheritance with `extends`
 - `super` keyword
 - Static methods
+
+### ✅ Callbacks
+- Passing functions as arguments
+- Callbacks with data
+- Callbacks in array methods (forEach, map)
+- Async callbacks with setTimeout
+- Error-first callback pattern (Node.js style)
+- Callback hell and why promises exist
 ---
 
 
@@ -133,9 +145,9 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 | Async JavaScript | ✅ Done |
 | DOM Manipulation | ✅ Done |
 | `this` Keyword | ✅ Done |
-| Classes |  🔄  Up next |
-| Callbacks | ⬜ Pending |
-| JSON | ⬜ Pending |
+| Classes |  ✅  Done |
+| Callbacks | ✅ Done |
+| JSON | 🔄 Pending |
 | HTML + CSS | ⬜ Pending |
 | React | ⬜ Pending |
 | Node.js + Express | ⬜ Pending |
@@ -149,12 +161,12 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ```bash
 git clone https://github.com/AlephzainCArpio/Review
 cd Review
-node 01-Fundamentals/variables.js
+node Fundamentals/variables.js
 ```
 
 **DOM practice:**
 
-Open `08-DOM-Manipulation/index.html` directly in Chrome.
+Open `DOM-Manipulation/index.html` directly in Chrome.
 
 ---
 
