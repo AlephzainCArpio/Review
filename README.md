@@ -50,6 +50,10 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄callbacks-basics.js
 ┃ ┗ 📄 callbacks-async.js
 ┃ ┗ 📄 task.js
+┣ 📁 11-Callbacks
+┃ ┣ 📄json-basics.js
+┃ ┗ 📄 json-fetch.js
+┃ ┗ 📄 task.js
 ┗ 📄 README.md
 ```
 ---
@@ -129,6 +133,14 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 - Async callbacks with setTimeout
 - Error-first callback pattern (Node.js style)
 - Callback hell and why promises exist
+
+### ✅ JSON
+- JSON syntax and rules
+- JSON.stringify() — object to string
+- JSON.parse() — string to object
+- JSON vs JavaScript objects
+- Pretty printing with JSON.stringify
+- Fetching and parsing API data
 ---
 
 
@@ -147,8 +159,8 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 | `this` Keyword | ✅ Done |
 | Classes |  ✅  Done |
 | Callbacks | ✅ Done |
-| JSON | 🔄 Pending |
-| HTML + CSS | ⬜ Pending |
+| JSON |  ✅ Done |
+| HTML + CSS | 🔄 Pending |
 | React | ⬜ Pending |
 | Node.js + Express | ⬜ Pending |
 | MySQL + MongoDB | ⬜ Pending |
