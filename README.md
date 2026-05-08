@@ -50,10 +50,17 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄callbacks-basics.js
 ┃ ┗ 📄 callbacks-async.js
 ┃ ┗ 📄 task.js
-┣ 📁 11-Callbacks
+┣ 📁 12-JSON
 ┃ ┣ 📄json-basics.js
 ┃ ┗ 📄 json-fetch.js
 ┃ ┗ 📄 task.js
+┣ 📁 13-HTML-CSS
+┃ ┣ 📄task1.html
+┃ ┗ 📄task2.html
+┃ ┗ 📄task3.html
+┃ ┣ 📄task4.html
+┃ ┗ 📄task5.html
+┃ ┗ 📄task6.html
 ┗ 📄 README.md
 ```
 ---
@@ -141,6 +148,14 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 - JSON vs JavaScript objects
 - Pretty printing with JSON.stringify
 - Fetching and parsing API data
+
+### ✅ HTML + CSS
+- Semantic HTML tags — header, nav, main, section, article, footer
+- CSS Box Model — margin, padding, border, box-sizing
+- Flexbox — display: flex, justify-content, align-items, gap
+- CSS Grid — grid-template-columns, repeat(), 1fr, gap
+- Responsive Design — media queries, mobile-first breakpoints
+- HTML Forms — input, label, button, form structure + CSS styling
 ---
 
 
@@ -160,8 +175,8 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 | Classes |  ✅  Done |
 | Callbacks | ✅ Done |
 | JSON |  ✅ Done |
-| HTML + CSS | 🔄 Pending |
-| React | ⬜ Pending |
+| HTML + CSS | ✅ Done |
+| React |🔄 Up Next |
 | Node.js + Express | ⬜ Pending |
 | MySQL + MongoDB | ⬜ Pending |
 
