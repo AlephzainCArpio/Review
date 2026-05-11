@@ -42,7 +42,7 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄 this-basic.js
 ┃ ┗ 📄 this-context.js
 ┃ ┗ 📄 task.js
-┣ 📁 10-This-Keyword
+┣ 📁 10-Classes
 ┃ ┣ 📄classes-basics.js
 ┃ ┗ 📄 inheritance.js
 ┃ ┗ 📄 task.js
@@ -61,6 +61,26 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄task4.html
 ┃ ┗ 📄task5.html
 ┃ ┗ 📄task6.html
+┣ 📁 14-React
+┃ ┣ 📁 public
+┃ ┣ 📁 src
+┃ ┃ ┣ 📁 assets
+┃ ┃ ┣ 📄 App.css
+┃ ┃ ┣ 📄 App.jsx
+┃ ┃ ┣ 📄 index.css
+┃ ┃ ┣ 📄 main.jsx
+┃ ┃ ┣ 📄 task1.jsx
+┃ ┃ ┣ 📄 task2.jsx
+┃ ┃ ┣ 📄 task3.jsx
+┃ ┃ ┣ 📄 task4.jsx
+┃ ┃ ┣ 📄 task5.jsx
+┃ ┃ ┗ 📄 task6.jsx
+┃ ┣ 📄 .gitignore
+┃ ┣ 📄 eslint.config.js
+┃ ┣ 📄 index.html
+┃ ┣ 📄 package-lock.json
+┃ ┣ 📄 package.json
+┃ ┗ 📄 vite.config.js
 ┗ 📄 README.md
 ```
 ---
@@ -156,6 +176,14 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 - CSS Grid — grid-template-columns, repeat(), 1fr, gap
 - Responsive Design — media queries, mobile-first breakpoints
 - HTML Forms — input, label, button, form structure + CSS styling
+
+### ✅ React
+- Components — function components, JSX syntax
+- Props — passing and receiving data between components
+- useState — managing and updating component state
+- Event Handling — onClick, onChange
+- List Rendering — .map() with unique keys
+- Conditional Rendering — toggling content with state
 ---
 
 
@@ -176,8 +204,8 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 | Callbacks | ✅ Done |
 | JSON |  ✅ Done |
 | HTML + CSS | ✅ Done |
-| React |🔄 Up Next |
-| Node.js + Express | ⬜ Pending |
+| React |✅ Done |
+| Node.js + Express | 🔄 Up Next |
 | MySQL + MongoDB | ⬜ Pending |
 
 ---
