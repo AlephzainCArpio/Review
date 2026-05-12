@@ -81,6 +81,16 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄 package-lock.json
 ┃ ┣ 📄 package.json
 ┃ ┗ 📄 vite.config.js
+┣ 📁 15-NodeJS-Express
+┃ ┣ 📄 .gitignore
+┃ ┣ 📄 package-lock.json
+┃ ┣ 📄 package.json
+┃ ┣ 📄 task1.js
+┃ ┣ 📄 task2.js
+┃ ┣ 📄 task3.js
+┃ ┣ 📄 task4.js
+┃ ┣ 📄 task5.js
+┃ ┗ 📄 task6.js
 ┗ 📄 README.md
 ```
 ---
@@ -184,6 +194,18 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 - Event Handling — onClick, onChange
 - List Rendering — .map() with unique keys
 - Conditional Rendering — toggling content with state
+
+### ✅ Node.js + Express
+- Node.js as a server-side JavaScript runtime
+- Setting up an Express server and listening on a port
+- Defining GET, POST, PUT, DELETE routes
+- Route parameters — req.params
+- Query strings — req.query
+- Custom middleware — logging requests with next()
+- Parsing JSON request bodies with express.json()
+- Sending JSON responses with status codes
+- In-memory CRUD operations with an array
+- Handling 404 errors for missing resources
 ---
 
 
@@ -205,8 +227,8 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 | JSON |  ✅ Done |
 | HTML + CSS | ✅ Done |
 | React |✅ Done |
-| Node.js + Express | 🔄 Up Next |
-| MySQL + MongoDB | ⬜ Pending |
+| Node.js + Express | ✅ Done |
+| MySQL + MongoDB | 🔄 Up Next |
 
 ---
 
