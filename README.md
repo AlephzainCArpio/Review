@@ -91,6 +91,17 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 ┃ ┣ 📄 task4.js
 ┃ ┣ 📄 task5.js
 ┃ ┗ 📄 task6.js
+┣ 📁 16-MySQL-MongoDB
+┃ ┣ 📄 .env
+┃ ┣ 📄 .gitignore
+┃ ┣ 📄 package-lock.json
+┃ ┣ 📄 package.json
+┃ ┣ 📄 task1.js
+┃ ┣ 📄 task2.js
+┃ ┣ 📄 task3.js
+┃ ┣ 📄 task4.js
+┃ ┣ 📄 task5.js
+┃ ┗ 📄 task6.js
 ┗ 📄 README.md
 ```
 ---
@@ -206,6 +217,18 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 - Sending JSON responses with status codes
 - In-memory CRUD operations with an array
 - Handling 404 errors for missing resources
+
+
+### ✅ MySQL + MongoDB
+- Connecting to MySQL using mysql2
+- Creating tables with SQL
+- MySQL CRUD — INSERT, SELECT, UPDATE, DELETE
+- Using parameterized queries to prevent SQL injection
+- Connecting to MongoDB using Mongoose
+- Defining schemas and models in Mongoose
+- MongoDB CRUD — insertMany, find, findByIdAndUpdate, findByIdAndDelete
+- Using .env for database credentials
+- Difference between SQL and NoSQL in practice
 ---
 
 
@@ -228,7 +251,7 @@ Each file focuses on a specific concept, organized by topic folder. Built throug
 | HTML + CSS | ✅ Done |
 | React |✅ Done |
 | Node.js + Express | ✅ Done |
-| MySQL + MongoDB | 🔄 Up Next |
+| MySQL + MongoDB | ✅ Done |
 
 ---
 
